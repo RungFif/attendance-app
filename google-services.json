@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "355226484871",
+    "project_id": "attendance-app-efaa2",
+    "storage_bucket": "attendance-app-efaa2.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:355226484871:android:06f8d0015afae45b817822",
+        "android_client_info": {
+          "package_name": "com.rafif.attendance"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDz7IR6EEdXz8ZInGwCuvpE05ERReYJ3VY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
