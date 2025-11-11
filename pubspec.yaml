@@ -28,6 +28,17 @@ environment:
 # the latest version available on pub.dev. To see which dependencies have newer
 # versions available, run `flutter pub outdated`.
 dependencies:
+  dotted_border: ^2.1.0 # Dotted Border
+  camera: ^0.11.0+2 # Camera
+  geolocator: ^13.0.2 # Geolocation
+  geocoding: ^3.0.0  # Geocoding
+  intl: ^0.20.1 # Internationalization Library untuk format tanggal, waktu, dan angka dalam berbagai bahasa.
+  lottie: ^3.3.1 # Lottie Animation
+  google_mlkit_face_detection: ^0.12.0 # Face Detection
+  cloud_firestore: ^5.6.3 # Connect Cloud Firestore (firebase database)
+  firebase_core: ^3.11.0 # Connect Flutter to Firebase
+  firebase_auth: ^5.4.2 # Firebase Authentication
+  image_picker: ^1.1.2 #ImagePicker
   flutter:
     sdk: flutter
 
