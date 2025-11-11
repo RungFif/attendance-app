@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:attendanceapp/ui/attend/attend_screen.dart';
 
 class HomeScreen extends StatelessWidget {
   const HomeScreen({super.key});
@@ -34,6 +35,16 @@ class HomeScreen extends StatelessWidget {
                 Expanded(
                   // efect when click
                   child: InkWell(
+                    highlightColor: Colors.transparent,
+                    splashColor: Colors.transparent,
+                    onTap: () {
+                      Navigator.push(
+                        context,
+                        MaterialPageRoute(
+                          builder: (context) => const AttendScreen(),
+                        ),
+                      );
+                    },
                     child: const Column(
                       mainAxisAlignment: MainAxisAlignment.center,
                       children: [
