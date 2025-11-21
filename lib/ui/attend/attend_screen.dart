@@ -1,7 +1,10 @@
 import 'package:flutter/material.dart';
+import 'package:camera/camera.dart';
 
 class AttendScreen extends StatelessWidget {
-  const AttendScreen({super.key});
+  final XFile? image;
+
+  const AttendScreen({super.key, this.image});
 
   @override
   Widget build(BuildContext context) {
